@@ -6,6 +6,7 @@ End-to-end data engineering pipeline on Microsoft Azure for retail analytics.
 ## 🏗️ Architecture
 ![Architecture](images/image1.png)
 
+---
 **Components:**
 - **Source**: Azure SQL Server (Products, Stores, Transactions, Customers)
 - **Ingestion**: Azure Data Factory pipelines
