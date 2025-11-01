@@ -1,10 +1,10 @@
 # Azure-Data-Pipeline-Retails-Project
 
-## Project Overview
+## 📊 Project Overview
 End-to-end data engineering pipeline on Microsoft Azure for retail analytics.
 
-## Architecture
-![Architecture](images/image1.jpg)
+## 🏗️ Architecture
+![Architecture](images/image1.png)
 
 **Components:**
 - **Source**: Azure SQL Server (Products, Stores, Transactions, Customers)
@@ -13,7 +13,7 @@ End-to-end data engineering pipeline on Microsoft Azure for retail analytics.
 - **Processing**: Azure Databricks (PySpark)
 - **Visualization**: Power BI Dashboard
 
-## Implementation
+## 🚀 Implementation
 
 ### 1. Azure SQL Database
 - Created SQL Server instance
@@ -25,7 +25,7 @@ End-to-end data engineering pipeline on Microsoft Azure for retail analytics.
 - Configured Bronze layer structure
 
 ### 3. Data Factory Pipelines
-![Pipelines](images/image2.jpg)
+![Pipelines](images/image2.png)
 - 4 Copy Data activities (store, transaction, product, customer)
 - Source: SQL Server → Destination: storage account(Data Lake)
 - All pipelines executed successfully
@@ -58,12 +58,12 @@ End-to-end data engineering pipeline on Microsoft Azure for retail analytics.
 13. `customer_lifetime_value_gold` - CLV analysis
 14. `store_country_distribution_gold` - Store-country revenue
 
-### 5. Power BI Dashboard
+### 5. 📊 Power BI Dashboard
 Connected to Gold layer for interactive visualizations
 
-![Power BI](images/image3.jpg)
+![Power BI](images/image3.png)
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Azure SQL Database
 - Azure Data Lake Storage Gen2
 - Azure Data Factory
